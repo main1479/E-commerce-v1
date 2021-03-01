@@ -1,0 +1,94 @@
+{
+	"products": [
+		{
+			"title": "MISTERHULT Pendant lamp",
+			"subTitle": "Pendant lamp, bamboo/handmade, 45cm",
+			"id": "603a3a0dfc13ae0271000014",
+			"image": "../img/product-1.png",
+			"subImage": "../img/product-1sub.png",
+			"price": 59.95,
+			"stock": 8,
+			"description": "The idea with MISTERHULT was to make a lamp with a minimal environmental footprint. By letting bamboo, that otherwise would be discarded, enhance the lamp’s expression, we harness the plant more than twice as much."
+		},
+		{
+			"title": "KNIXHULT Pendant lamp",
+			"subTitle": "Pendant lamp, bamboo/handmade",
+			"id": "603a3a0dfc13ae0271000015",
+			"image": "../img/product-2.png",
+			"subImage": "../img/product-2sub.png",
+			"price": 39.95,
+			"stock": 10,
+			"description": "The idea with KNIXHULT was to make a lamp with a minimal environmental footprint. By letting bamboo, that otherwise would be discarded, enhance the lamp’s expression, we harness the plant more than twice as much."
+		},
+		{
+			"title": "HEMMA Pendant lamp/ 2017",
+			"subTitle": "Pendant lamp, rounded/black, 26cm",
+			"id": "603a3a0dfc13ae0271000016",
+			"image": "../img/product-3.png",
+			"subImage": "../img/product-3sub.png",
+			"price": 18.95,
+			"stock": 2,
+			"description": "Combine the lamp shade with a decorative light bulb to create a cosy atmosphere."
+		},
+		{
+			"title": "SKAFTET Pendant lamp with light bulb",
+			"subTitle": "Pendant lamp with light bulb, brass-colour",
+			"id": "603a3a0dfc13ae0271000017",
+			"image": "../img/product-4.png",
+			"subImage": "../img/product-4sub.png",
+			"price": 35.54,
+			"stock": 0,
+			"description": "Resemble old light bulbs with filaments, but made with energy-saving LED. Tinted clear glass spreads a warm, decorative light. Use with a transparent lampshade, or without to get a retro style."
+		},
+		{
+			"title": "HEMMA Pendant lamp/ 2019",
+			"subTitle": "Pendant lamp, black, 30cm",
+			"id": "603a3a0dfc13ae0271000018",
+			"image": "../img/product-5.png",
+			"subImage": "../img/product-5sub.png",
+			"price": 19.54,
+			"stock": 5,
+			"description": "The material in this product may be recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area."
+		},
+		{
+			"title": "JÄLLBY Pendant lamp",
+			"subTitle": "Pendant lamp, smoked glass/brass-plated",
+			"id": "603a3a0dfc13ae0271000019",
+			"image": "../img/product-6.png",
+			"subImage": "../img/product-6sub.png",
+			"price": 27.54,
+			"stock": 9,
+			"description": "These lampshades in glass are mouth blown by a skilled craftsperson and therefore each shade is unique."
+		},
+		{
+			"title": "IKEA PS 2014 Pendant lamp",
+			"subTitle": "Pendant lamp, white, 35cm",
+			"id": "603a3a0dfc13ae0271000020",
+			"image": "../img/product-7.png",
+			"subImage": "../img/product-7sub.png",
+			"price": 39.54,
+			"stock": 3,
+			"description": "Inspired by science fiction movies, IKEA PS 2014 pendant lamp is a winner of the international design competition Red Dot Award. Change its shape and intensity of light with a simple pull of the strings."
+		},
+		{
+			"title": "HEMMA Pendant lamp/ Material",
+			"subTitle": "Pendant lamp, black",
+			"id": "603a3a0dfc13ae0271000021",
+			"image": "../img/product-8.png",
+			"subImage": "../img/product-8sub.png",
+			"price": 16.54,
+			"stock": 0,
+			"description": "Special waste handling may be required. Please contact your local authorities for more information."
+		},
+		{
+			"title": "SJÖPENNA Pendant lamp",
+			"subTitle": "Pendant lamp, round, 35cm",
+			"id": "603a3a0dfc13ae0271000022",
+			"image": "../img/product-9.png",
+			"subImage": "../img/product-9sub.png",
+			"price": 19.54,
+			"stock": 5,
+			"description": "Diffused light that provides good general light in the room. Light bulb sold separately. IKEA recommends LED bulb E27 globe opal white."
+		}
+	]
+}

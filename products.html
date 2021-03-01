@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Lampy</title>
+		<link rel="shortcut icon" href="src/img/favicon.png" type="image/x-icon" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="src/sass/main.scss" />
+		<script src="src/js/controller.js" defer></script>
+	</head>
+	<body data-barba="wrapper">
+		<ul class="transitions">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		
+		<header class="header">
+			<nav class="nav">
+				<div class="container">
+					<div class="flex">
+						<a href="index.html" class="logo">
+							<img src="src/img/logo.png" alt="Lampy" />
+						</a>
+						<ul class="menu">
+							<li><a href="products.html">Products</a></li>
+						</ul>
+
+						<ul class="extra__menu">
+							<li>
+								<a href="#" class="cart">
+                           <span>20</span>
+									<svg>
+										<use xlink:href="src/img/icons.svg#icon-cart"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="search">
+									<svg>
+										<use xlink:href="src/img/icons.svg#icon-search"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<main data-barba="container" data-barba-namespace="products">
+
+		</main>
+	</body>
+</html>
