@@ -3,18 +3,18 @@ import 'regenerator-runtime/runtime';
 import vendors from './vendors/vendors.js';
 import * as model from './model.js';
 import { async } from 'regenerator-runtime/runtime';
-import JSON from 'url:../products/products.json';
+import slideView from './views/sliderView.js';
 
 const controlLoadProduct = async function () {
 	try {
-		await model.getProducts();
+		await model.getProducts();	
+		slideView.render(model.state.products)
 	} catch (err) {
 		console.error(err);
 	}
 };
 
-
-const init = function(){
+const init = function () {
 	controlLoadProduct();
-}
+};
 init();

@@ -72,8 +72,8 @@ img.clip {
 	margin-left: auto;
 	width: 3rem;
 	overflow: hidden;
-	transition: all .3s cubic-bezier(.86,.49,.83,.67);
-	box-shadow: 0 3px 10px rgba(0,0,0, .1);
+	transition: all 0.3s cubic-bezier(0.86, 0.49, 0.83, 0.67);
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 	z-index: 5;
 	justify-content: flex-end;
 	svg {
@@ -87,14 +87,13 @@ img.clip {
 		border-radius: 50%;
 		background: #fff;
 		justify-self: flex-end;
-		
 	}
 
 	&--text {
 		top: 0;
 		right: 0;
 		background: var(--color-primary);
-		font-size: .8rem;
+		font-size: 0.8rem;
 		font-weight: bold;
 		color: var(--color-secondary);
 		width: 100%;
@@ -114,37 +113,35 @@ img.clip {
 }
 
 .prev,
-.next{
+.next {
 	width: 3.5rem;
 	height: 3.5rem;
 	border: 2px solid var(--color-primary);
 	background: #fff;
-	transition: all .3s;
+	transition: all 0.3s;
 	cursor: pointer;
-	svg{
+	svg {
 		width: 2.5rem;
-		transition: all .3s;
+		transition: all 0.3s;
 	}
 
-	&:hover{
+	&:hover {
 		background: var(--color-secondary);
 
-		svg{
+		svg {
 			fill: var(--color-primary);
 		}
 	}
-
 }
 
-.prev{
+.prev {
 	margin-right: 1rem;
 }
 // =============================
 // utility classes
 // =============================
-.text-right{
+.text-right {
 	text-align: right;
-
 }
 .mt {
 	&-1 {
@@ -421,25 +418,29 @@ section.slider {
 		font-weight: bold;
 		color: var(--color-secondary);
 	}
+	.swiper-container {
+		width: 45rem;
+		overflow: hidden;
+	}
 
 	.product__slider {
 		display: flex;
 		align-items: flex-start;
-
 		.item {
-			max-width: 12rem;
+			width: 100%;
+			min-width: 12rem;
 			padding: 1rem;
 			padding-bottom: 0;
 			border: 2px solid var(--color-secondary);
 			border-radius: 5px;
 			position: relative;
-
+			background: #fff;
 			margin-right: 3rem;
-			
-			.product__image{
+
+			.product__image {
 				width: 90%;
 				margin: 0 auto;
-				img{
+				img {
 					width: 100%;
 					object-fit: contain;
 				}
@@ -473,19 +474,19 @@ section.slider {
 				}
 			}
 
-			.btn__add-cart{
+			.btn__add-cart {
 				position: absolute;
 				bottom: 0;
 				right: 1rem;
 				transform: translateY(50%);
-				&:hover{
+				&:hover {
 					width: calc(100% - 1.5rem);
 				}
 			}
 		}
 	}
 
-	.product__slider-nav{
+	.product__slider-nav {
 		display: flex;
 		align-items: center;
 	}
